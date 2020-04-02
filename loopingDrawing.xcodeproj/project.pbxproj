@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F6DC9271F9C955500CB34AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6DC9261F9C955500CB34AC /* AppDelegate.swift */; };
+		2F6DC9291F9C955500CB34AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6DC9281F9C955500CB34AC /* ViewController.swift */; };
+		2F6DC92B1F9C955500CB34AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F6DC92A1F9C955500CB34AC /* Assets.xcassets */; };
+		2F6DC92E1F9C955500CB34AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F6DC92C1F9C955500CB34AC /* Main.storyboard */; };
+		2F6DC9531F9C958C00CB34AC /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6DC9521F9C958C00CB34AC /* MyView.swift */; };
+		61784A73242A89D400FFC2BF /* kalimba.png in Resources */ = {isa = PBXBuildFile; fileRef = 61784A72242A89D400FFC2BF /* kalimba.png */; };
+		61784A74242A8CA400FFC2BF /* kalimba.png in Sources */ = {isa = PBXBuildFile; fileRef = 61784A72242A89D400FFC2BF /* kalimba.png */; };
+		617F5E392435FBAB00783AF9 /* ORSSerial in Frameworks */ = {isa = PBXBuildFile; productRef = 617F5E382435FBAB00783AF9 /* ORSSerial */; };
+		617F5E3B2436287900783AF9 /* Arduino.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617F5E3A2436287900783AF9 /* Arduino.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F6DC9231F9C955500CB34AC /* loopingDrawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = loopingDrawing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F6DC9261F9C955500CB34AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2F6DC9281F9C955500CB34AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2F6DC92A1F9C955500CB34AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F6DC92D1F9C955500CB34AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F6DC92F1F9C955500CB34AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F6DC9301F9C955500CB34AC /* basicsSwift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = basicsSwift.entitlements; sourceTree = "<group>"; };
+		2F6DC9521F9C958C00CB34AC /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
+		61784A72242A89D400FFC2BF /* kalimba.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kalimba.png; sourceTree = "<group>"; };
+		617F5E3A2436287900783AF9 /* Arduino.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Arduino.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F6DC9201F9C955500CB34AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				617F5E392435FBAB00783AF9 /* ORSSerial in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F6DC91A1F9C955500CB34AC = {
+			isa = PBXGroup;
+			children = (
+				2F6DC9251F9C955500CB34AC /* basicsSwift */,
+				2F6DC9241F9C955500CB34AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F6DC9241F9C955500CB34AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F6DC9231F9C955500CB34AC /* loopingDrawing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F6DC9251F9C955500CB34AC /* basicsSwift */ = {
+			isa = PBXGroup;
+			children = (
+				2F6DC9261F9C955500CB34AC /* AppDelegate.swift */,
+				61784A72242A89D400FFC2BF /* kalimba.png */,
+				617F5E3A2436287900783AF9 /* Arduino.swift */,
+				2F6DC9281F9C955500CB34AC /* ViewController.swift */,
+				2F6DC9521F9C958C00CB34AC /* MyView.swift */,
+				2F6DC92A1F9C955500CB34AC /* Assets.xcassets */,
+				2F6DC92C1F9C955500CB34AC /* Main.storyboard */,
+				2F6DC92F1F9C955500CB34AC /* Info.plist */,
+				2F6DC9301F9C955500CB34AC /* basicsSwift.entitlements */,
+			);
+			path = basicsSwift;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F6DC9221F9C955500CB34AC /* loopingDrawing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F6DC9491F9C955600CB34AC /* Build configuration list for PBXNativeTarget "loopingDrawing" */;
+			buildPhases = (
+				2F6DC91F1F9C955500CB34AC /* Sources */,
+				2F6DC9201F9C955500CB34AC /* Frameworks */,
+				2F6DC9211F9C955500CB34AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = loopingDrawing;
+			packageProductDependencies = (
+				617F5E382435FBAB00783AF9 /* ORSSerial */,
+			);
+			productName = basicsSwift;
+			productReference = 2F6DC9231F9C955500CB34AC /* loopingDrawing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F6DC91B1F9C955500CB34AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = gold;
+				TargetAttributes = {
+					2F6DC9221F9C955500CB34AC = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 1130;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2F6DC91E1F9C955500CB34AC /* Build configuration list for PBXProject "loopingDrawing" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F6DC91A1F9C955500CB34AC;
+			packageReferences = (
+				617F5E372435FBAB00783AF9 /* XCRemoteSwiftPackageReference "ORSSerialPort" */,
+			);
+			productRefGroup = 2F6DC9241F9C955500CB34AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F6DC9221F9C955500CB34AC /* loopingDrawing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F6DC9211F9C955500CB34AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F6DC92B1F9C955500CB34AC /* Assets.xcassets in Resources */,
+				2F6DC92E1F9C955500CB34AC /* Main.storyboard in Resources */,
+				61784A73242A89D400FFC2BF /* kalimba.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F6DC91F1F9C955500CB34AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61784A74242A8CA400FFC2BF /* kalimba.png in Sources */,
+				2F6DC9531F9C958C00CB34AC /* MyView.swift in Sources */,
+				617F5E3B2436287900783AF9 /* Arduino.swift in Sources */,
+				2F6DC9291F9C955500CB34AC /* ViewController.swift in Sources */,
+				2F6DC9271F9C955500CB34AC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2F6DC92C1F9C955500CB34AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F6DC92D1F9C955500CB34AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F6DC9471F9C955600CB34AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2F6DC9481F9C955600CB34AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2F6DC94A1F9C955600CB34AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = basicsSwift/basicsSwift.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = basicsSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = design.basicsSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2F6DC94B1F9C955600CB34AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = basicsSwift/basicsSwift.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = basicsSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = design.basicsSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F6DC91E1F9C955500CB34AC /* Build configuration list for PBXProject "loopingDrawing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F6DC9471F9C955600CB34AC /* Debug */,
+				2F6DC9481F9C955600CB34AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F6DC9491F9C955600CB34AC /* Build configuration list for PBXNativeTarget "loopingDrawing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F6DC94A1F9C955600CB34AC /* Debug */,
+				2F6DC94B1F9C955600CB34AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		617F5E372435FBAB00783AF9 /* XCRemoteSwiftPackageReference "ORSSerialPort" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/armadsen/ORSSerialPort/";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		617F5E382435FBAB00783AF9 /* ORSSerial */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 617F5E372435FBAB00783AF9 /* XCRemoteSwiftPackageReference "ORSSerialPort" */;
+			productName = ORSSerial;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2F6DC91B1F9C955500CB34AC /* Project object */;
+}
