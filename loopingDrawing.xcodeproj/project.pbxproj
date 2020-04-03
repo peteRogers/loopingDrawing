@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F5D16DA2436A78500CFF81E /* x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F5D16D92436A78500CFF81E /* x.png */; };
 		2F6DC9271F9C955500CB34AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6DC9261F9C955500CB34AC /* AppDelegate.swift */; };
 		2F6DC9291F9C955500CB34AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6DC9281F9C955500CB34AC /* ViewController.swift */; };
 		2F6DC92B1F9C955500CB34AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F6DC92A1F9C955500CB34AC /* Assets.xcassets */; };
 		2F6DC92E1F9C955500CB34AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F6DC92C1F9C955500CB34AC /* Main.storyboard */; };
 		2F6DC9531F9C958C00CB34AC /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6DC9521F9C958C00CB34AC /* MyView.swift */; };
-		61784A73242A89D400FFC2BF /* kalimba.png in Resources */ = {isa = PBXBuildFile; fileRef = 61784A72242A89D400FFC2BF /* kalimba.png */; };
-		61784A74242A8CA400FFC2BF /* kalimba.png in Sources */ = {isa = PBXBuildFile; fileRef = 61784A72242A89D400FFC2BF /* kalimba.png */; };
 		617F5E392435FBAB00783AF9 /* ORSSerial in Frameworks */ = {isa = PBXBuildFile; productRef = 617F5E382435FBAB00783AF9 /* ORSSerial */; };
 		617F5E3B2436287900783AF9 /* Arduino.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617F5E3A2436287900783AF9 /* Arduino.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F5D16D92436A78500CFF81E /* x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x.png; sourceTree = "<group>"; };
 		2F6DC9231F9C955500CB34AC /* loopingDrawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = loopingDrawing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F6DC9261F9C955500CB34AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F6DC9281F9C955500CB34AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -27,7 +27,6 @@
 		2F6DC92F1F9C955500CB34AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F6DC9301F9C955500CB34AC /* basicsSwift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = basicsSwift.entitlements; sourceTree = "<group>"; };
 		2F6DC9521F9C958C00CB34AC /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
-		61784A72242A89D400FFC2BF /* kalimba.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kalimba.png; sourceTree = "<group>"; };
 		617F5E3A2436287900783AF9 /* Arduino.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Arduino.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,8 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				2F6DC9261F9C955500CB34AC /* AppDelegate.swift */,
-				61784A72242A89D400FFC2BF /* kalimba.png */,
 				617F5E3A2436287900783AF9 /* Arduino.swift */,
+				2F5D16D92436A78500CFF81E /* x.png */,
 				2F6DC9281F9C955500CB34AC /* ViewController.swift */,
 				2F6DC9521F9C958C00CB34AC /* MyView.swift */,
 				2F6DC92A1F9C955500CB34AC /* Assets.xcassets */,
@@ -141,9 +140,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F5D16DA2436A78500CFF81E /* x.png in Resources */,
 				2F6DC92B1F9C955500CB34AC /* Assets.xcassets in Resources */,
 				2F6DC92E1F9C955500CB34AC /* Main.storyboard in Resources */,
-				61784A73242A89D400FFC2BF /* kalimba.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,7 +153,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61784A74242A8CA400FFC2BF /* kalimba.png in Sources */,
 				2F6DC9531F9C958C00CB34AC /* MyView.swift in Sources */,
 				617F5E3B2436287900783AF9 /* Arduino.swift in Sources */,
 				2F6DC9291F9C955500CB34AC /* ViewController.swift in Sources */,

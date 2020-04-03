@@ -19,15 +19,15 @@ class MyView: NSView {
    
     func setup(){
         //load your image like the line below
-        myImage = loadImage(name:"kalimba.png")
+        myImage = loadImage(name:"filename.png")
         
     }
 
     override func draw(_ dirtyRect: NSRect) {
         super.draw(dirtyRect)
        
-       // if let px = arduinoValues?[0]{
-        canvas?.draw(myImage, in: CGRect(x:100, y: 100, width: 100, height: 100 ))
+        //draws image based upon the rotary encoder
+        canvas?.draw(myImage, in: CGRect(x: arduinoValues?.item(at: 0) ?? 0, y: 100, width: 100, height: 100 ))
         //set fill color
         canvas?.setFillColor(CGColor(red: 1, green: 0, blue: 0, alpha: 1))
         //fill an ellipse
@@ -70,7 +70,7 @@ class MyView: NSView {
         }
       
             
-        let im = NSImage(named: "kalimba.png")
+        let im = NSImage(named: "x.png")
         return im!.cgImage(forProposedRect: nil, context: nil, hints: nil)!
             
     
@@ -141,7 +141,12 @@ class MyView: NSView {
 //    }
 //}
 //
+extension Array {
 
+    func item(at index: Int) -> Element? {
+        return indices.contains(index) ? self[index] : nil
+    }
+}
     
     
 
